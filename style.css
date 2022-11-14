@@ -1,0 +1,44 @@
+body.main {
+    background-image: url("fruit.jpg");
+}
+
+h1 {
+        text-align: center;
+        font-weight: bold;
+        background-color: white;
+}
+
+div {
+        font-weight: bold;
+}
+
+p {
+        font-weight: bold;
+        background-color: white;
+        width: 200;
+}
+
+div.ship{
+        width: 200;
+        background-color: white;
+}
+
+td.inner {
+        background-color: #4C7EFF;
+}
+
+table {
+        backgroun-color: gray;
+}
+
+td {
+        background-color:#89E2A1;
+}
+
+h2{
+        text-align: center;
+}
+
+p.recipet {
+        text-align:center;
+}
