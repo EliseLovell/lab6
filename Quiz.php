@@ -23,7 +23,7 @@
         echo nl2br("    Your answer: $answer2\n");
         echo nl2br(     "Correct answer: 120 cm\n<br>");
 
-        echo nl2br("Question 3: What is the most common thing in an emperor peguin's diet?\n");
+        echo nl2br("Question 3: What is the most common thing in an emperor penguin's diet?\n");
         echo nl2br("    Your answer: $answer3\n");
         echo nl2br("    Correct answer: Atlantic Silverfish\n<br>");
 
