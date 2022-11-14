@@ -1,0 +1,59 @@
+<html>
+        <head>
+                <title>Web Page</title>
+                <link href="style.css" rel="stylesheet" type="text/css"/>
+                <script type="text/javascript" src="formChecker.js"></script>
+        </head>
+        <body class="main">
+                <h1> Fruit Shop</h1>
+                <form action="customerBackend.php" method="post" id="shop" onsumbit="check()">
+
+                        <div>
+                                <label for="user">Username(email): </label><br>
+                                <input type="email" id="user" name="user" required>
+                        </div>
+                        <div>
+                                <label for="pass">Password: </label><br>
+                                <input type="password" id="pass" name="pass" required><br>
+                        </div>
+
+
+                        <br><p>Enter how many of each item you would like (0 if none): <p>
+                        <div>
+                                <label for="item1">Apple: $3.00 </label><br>
+                                <input type="text" id="item1" name="item1" required>
+                        </div>
+                        <div>
+                                <label for="item2">Orange: $4.00 </label><br>
+                                <input type="text" id="item2" name="item2" required>
+                        </div>
+                        <div>
+                                <label for="item3">Lemon: $2.50 </label><br>
+                                <input type="text" id="item3" name="item3" required>
+                        </div>
+                        <div>
+                                <label for="item4">Lime: $2.00 </label><br>
+                                <input type="text" id="item4" name="item4" required>
+                        </div>
+
+
+                        <br><p id=form-prompt>Choose a Shipping Method: </p>
+                        <div class="ship">
+                                <input type="radio" id="ship7" name="ship" value="Free" required>
+                                <label for="ship7">Free 7 day</label>
+                        </div>
+                        <div class="ship">
+                                <input type="radio" id="Express" name="ship" value="Express" required>
+                                <label for="Express">$50.00 over night</label><br>
+                        </div>
+                        <div class="ship">
+                                <input type="radio" id="ship3" name="ship" value="Three Day" required>
+                                <label for="ship3">$5.00 three day</label><br>
+                        </div>
+
+                        <br><div><button value="reset" type="reset">Reset</button></div>
+                        <br><div><button value="submit" type="submit" >Submit</button></div>
+                </form>
+        </body>
+</html>
+
